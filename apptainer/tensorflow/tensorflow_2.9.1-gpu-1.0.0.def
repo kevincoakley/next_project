@@ -1,0 +1,18 @@
+Bootstrap: docker
+From: tensorflow/tensorflow:2.9.1-gpu
+
+%environment
+    export DEBIAN_FRONTEND=noninteractive
+
+    # See http://bugs.python.org/issue19846
+    export LANG=C.UTF-8
+
+%post
+    python3 -m pip install --no-cache-dir pyyaml xmltodict
+
+%labels
+    Author kcoakley@sdsc.edu
+    Version v1.0.0
+
+%help
+    TensorFlow 2.9.1 with additional packages
