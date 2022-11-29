@@ -1,0 +1,5 @@
+*.error
+*.log
+*.output
+*.py
+*.tar.gz
