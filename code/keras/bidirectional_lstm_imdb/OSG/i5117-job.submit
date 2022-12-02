@@ -1,0 +1,46 @@
+universe = vanilla
+
+# Job requirements - ensure we are running on a Singularity enabled
+# node and have enough resources to execute our code
+# Tensorflow also requires AVX instruction set and a newer host kernel
+Requirements = HAS_SINGULARITY == True && HAS_AVX2 == True && OSG_HOST_KERNEL_VERSION >= 31000 && OSG_CPU_Model == "Intel(R) Xeon(R) Gold 5117 CPU @ 2.00GHz"
+request_cpus = 4
+request_gpus = 0
+request_memory = 8GB
+request_disk = 8GB
+
+# Change the maximum allowed duration to 40 hours
++JobDurationCategory = "Long"
+
+# Container image to run the job in
++SingularityImage = "$(container)"
+
+# Executable is the program your job will run It's often useful
+# to create a shell script to "wrap" your actual work.
+Executable = job-wrapper.sh
+Arguments = $(description)
+
+# Inputs/outputs - in this case we just need our python code.
+# If you out leave transfer_output_files, all generated files comes back
+transfer_input_files = system_info.py, bidirectional_lstm_imdb.py 
+transfer_output_files = bidirectional_lstm_imdb.tar.gz
+transfer_output_remaps  = "bidirectional_lstm_imdb.tar.gz=$(Cluster).$(Process).bidirectional_lstm_imdb.tar.gz"
+
+# Error and output are the error and output channels from your job
+# that HTCondor returns from the remote host.
+Error = $(Cluster).$(Process).error
+Output = $(Cluster).$(Process).output
+
+# The LOG file is where HTCondor places information about your
+# job's status, success, and resource consumption.
+Log = $(Cluster).log
+
+# Send the job to Held state on failure. 
+#on_exit_hold = (ExitBySignal == True) || (ExitCode != 0)
+
+# Periodically retry the jobs every 1 hour, up to a maximum of 5 retries.
+#periodic_release =  (NumJobStarts < 5) && ((CurrentTime - EnteredCurrentStatus) > 60*60)
+
+# queue is the "start button" - it launches any jobs that have been
+# specified thus far.
+queue container, description from containers.txt
