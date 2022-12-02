@@ -1,1 +1,1 @@
-../job-wrapper.sh
+../fixed-seed-wrapper.sh
