@@ -17,6 +17,7 @@ Containers from dockerhub/tensorflow/tensorflow customized to include CUDA 11.3 
 * [tensorflow_2.8.3-gpu-cuda11.3-cudnn8.2](https://object.cloud.sdsc.edu:443/v1/AUTH_da4962d3368042ac8337e2dfdd3e7bf3/singularity/docker_hub/custom/tensorflow_2.8.3-gpu-cuda11.3-cudnn8.2.sif)
 * [tensorflow_2.9.1-gpu-cuda11.3-cudnn8.2](https://object.cloud.sdsc.edu:443/v1/AUTH_da4962d3368042ac8337e2dfdd3e7bf3/singularity/docker_hub/custom/tensorflow_2.9.1-gpu-cuda11.3-cudnn8.2.sif)
 * [tensorflow_2.10.0-gpu-cuda11.3-cudnn8.2](https://object.cloud.sdsc.edu:443/v1/AUTH_da4962d3368042ac8337e2dfdd3e7bf3/singularity/docker_hub/custom/tensorflow_2.10.0-gpu-cuda11.3-cudnn8.2.sif)
+* [tensorflow_2.11.0-gpu-cuda11.8-cudnn8.6.sif](https://object.cloud.sdsc.edu:443/v1/AUTH_da4962d3368042ac8337e2dfdd3e7bf3/singularity/docker_hub/custom/tensorflow_2.11.0-gpu-cuda11.8-cudnn8.6.sif)
 
 ### nvcr.io/nvidia/tensorflow
 
