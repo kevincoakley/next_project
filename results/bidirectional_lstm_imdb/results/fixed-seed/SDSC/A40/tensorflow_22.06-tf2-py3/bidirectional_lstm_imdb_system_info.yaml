@@ -1,0 +1,1302 @@
+cpu:
+- TLB size: 1024 4K pages
+  address sizes: 48 bits physical, 48 bits virtual
+  apicid: '0'
+  bogomips: '5988.74'
+  bugs: fxsave_leak sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass
+    retbleed
+  cache size: 512 KB
+  cache_alignment: '64'
+  clflush size: '64'
+  core id: '0'
+  cpu MHz: '2994.372'
+  cpu cores: '1'
+  cpu family: '23'
+  cpuid level: '13'
+  flags: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush
+    mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid
+    extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe
+    popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cr8_legacy abm sse4a misalignsse
+    3dnowprefetch osvw topoext vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap
+    clflushopt sha_ni xsaveopt xsavec xgetbv1 arat
+  fpu: 'yes'
+  fpu_exception: 'yes'
+  initial apicid: '0'
+  microcode: '0x1000065'
+  model: '1'
+  model name: AMD EPYC Processor
+  physical id: '0'
+  power management: ''
+  processor: '0'
+  siblings: '1'
+  stepping: '2'
+  vendor_id: AuthenticAMD
+  wp: 'yes'
+- TLB size: 1024 4K pages
+  address sizes: 48 bits physical, 48 bits virtual
+  apicid: '1'
+  bogomips: '5988.74'
+  bugs: fxsave_leak sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass
+    retbleed
+  cache size: 512 KB
+  cache_alignment: '64'
+  clflush size: '64'
+  core id: '0'
+  cpu MHz: '2994.372'
+  cpu cores: '1'
+  cpu family: '23'
+  cpuid level: '13'
+  flags: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush
+    mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid
+    extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe
+    popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cr8_legacy abm sse4a misalignsse
+    3dnowprefetch osvw topoext vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap
+    clflushopt sha_ni xsaveopt xsavec xgetbv1 arat
+  fpu: 'yes'
+  fpu_exception: 'yes'
+  initial apicid: '1'
+  microcode: '0x1000065'
+  model: '1'
+  model name: AMD EPYC Processor
+  physical id: '1'
+  power management: ''
+  processor: '1'
+  siblings: '1'
+  stepping: '2'
+  vendor_id: AuthenticAMD
+  wp: 'yes'
+- TLB size: 1024 4K pages
+  address sizes: 48 bits physical, 48 bits virtual
+  apicid: '2'
+  bogomips: '5988.74'
+  bugs: fxsave_leak sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass
+    retbleed
+  cache size: 512 KB
+  cache_alignment: '64'
+  clflush size: '64'
+  core id: '0'
+  cpu MHz: '2994.372'
+  cpu cores: '1'
+  cpu family: '23'
+  cpuid level: '13'
+  flags: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush
+    mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid
+    extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe
+    popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cr8_legacy abm sse4a misalignsse
+    3dnowprefetch osvw topoext vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap
+    clflushopt sha_ni xsaveopt xsavec xgetbv1 arat
+  fpu: 'yes'
+  fpu_exception: 'yes'
+  initial apicid: '2'
+  microcode: '0x1000065'
+  model: '1'
+  model name: AMD EPYC Processor
+  physical id: '2'
+  power management: ''
+  processor: '2'
+  siblings: '1'
+  stepping: '2'
+  vendor_id: AuthenticAMD
+  wp: 'yes'
+- TLB size: 1024 4K pages
+  address sizes: 48 bits physical, 48 bits virtual
+  apicid: '3'
+  bogomips: '5988.74'
+  bugs: fxsave_leak sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass
+    retbleed
+  cache size: 512 KB
+  cache_alignment: '64'
+  clflush size: '64'
+  core id: '0'
+  cpu MHz: '2994.372'
+  cpu cores: '1'
+  cpu family: '23'
+  cpuid level: '13'
+  flags: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush
+    mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid
+    extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe
+    popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cr8_legacy abm sse4a misalignsse
+    3dnowprefetch osvw topoext vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap
+    clflushopt sha_ni xsaveopt xsavec xgetbv1 arat
+  fpu: 'yes'
+  fpu_exception: 'yes'
+  initial apicid: '3'
+  microcode: '0x1000065'
+  model: '1'
+  model name: AMD EPYC Processor
+  physical id: '3'
+  power management: ''
+  processor: '3'
+  siblings: '1'
+  stepping: '2'
+  vendor_id: AuthenticAMD
+  wp: 'yes'
+- TLB size: 1024 4K pages
+  address sizes: 48 bits physical, 48 bits virtual
+  apicid: '4'
+  bogomips: '5988.74'
+  bugs: fxsave_leak sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass
+    retbleed
+  cache size: 512 KB
+  cache_alignment: '64'
+  clflush size: '64'
+  core id: '0'
+  cpu MHz: '2994.372'
+  cpu cores: '1'
+  cpu family: '23'
+  cpuid level: '13'
+  flags: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush
+    mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid
+    extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe
+    popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cr8_legacy abm sse4a misalignsse
+    3dnowprefetch osvw topoext vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap
+    clflushopt sha_ni xsaveopt xsavec xgetbv1 arat
+  fpu: 'yes'
+  fpu_exception: 'yes'
+  initial apicid: '4'
+  microcode: '0x1000065'
+  model: '1'
+  model name: AMD EPYC Processor
+  physical id: '4'
+  power management: ''
+  processor: '4'
+  siblings: '1'
+  stepping: '2'
+  vendor_id: AuthenticAMD
+  wp: 'yes'
+- TLB size: 1024 4K pages
+  address sizes: 48 bits physical, 48 bits virtual
+  apicid: '5'
+  bogomips: '5988.74'
+  bugs: fxsave_leak sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass
+    retbleed
+  cache size: 512 KB
+  cache_alignment: '64'
+  clflush size: '64'
+  core id: '0'
+  cpu MHz: '2994.372'
+  cpu cores: '1'
+  cpu family: '23'
+  cpuid level: '13'
+  flags: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush
+    mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid
+    extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe
+    popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cr8_legacy abm sse4a misalignsse
+    3dnowprefetch osvw topoext vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap
+    clflushopt sha_ni xsaveopt xsavec xgetbv1 arat
+  fpu: 'yes'
+  fpu_exception: 'yes'
+  initial apicid: '5'
+  microcode: '0x1000065'
+  model: '1'
+  model name: AMD EPYC Processor
+  physical id: '5'
+  power management: ''
+  processor: '5'
+  siblings: '1'
+  stepping: '2'
+  vendor_id: AuthenticAMD
+  wp: 'yes'
+- TLB size: 1024 4K pages
+  address sizes: 48 bits physical, 48 bits virtual
+  apicid: '6'
+  bogomips: '5988.74'
+  bugs: fxsave_leak sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass
+    retbleed
+  cache size: 512 KB
+  cache_alignment: '64'
+  clflush size: '64'
+  core id: '0'
+  cpu MHz: '2994.372'
+  cpu cores: '1'
+  cpu family: '23'
+  cpuid level: '13'
+  flags: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush
+    mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid
+    extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe
+    popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cr8_legacy abm sse4a misalignsse
+    3dnowprefetch osvw topoext vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap
+    clflushopt sha_ni xsaveopt xsavec xgetbv1 arat
+  fpu: 'yes'
+  fpu_exception: 'yes'
+  initial apicid: '6'
+  microcode: '0x1000065'
+  model: '1'
+  model name: AMD EPYC Processor
+  physical id: '6'
+  power management: ''
+  processor: '6'
+  siblings: '1'
+  stepping: '2'
+  vendor_id: AuthenticAMD
+  wp: 'yes'
+- TLB size: 1024 4K pages
+  address sizes: 48 bits physical, 48 bits virtual
+  apicid: '7'
+  bogomips: '5988.74'
+  bugs: fxsave_leak sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass
+    retbleed
+  cache size: 512 KB
+  cache_alignment: '64'
+  clflush size: '64'
+  core id: '0'
+  cpu MHz: '2994.372'
+  cpu cores: '1'
+  cpu family: '23'
+  cpuid level: '13'
+  flags: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush
+    mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid
+    extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe
+    popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cr8_legacy abm sse4a misalignsse
+    3dnowprefetch osvw topoext vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap
+    clflushopt sha_ni xsaveopt xsavec xgetbv1 arat
+  fpu: 'yes'
+  fpu_exception: 'yes'
+  initial apicid: '7'
+  microcode: '0x1000065'
+  model: '1'
+  model name: AMD EPYC Processor
+  physical id: '7'
+  power management: ''
+  processor: '7'
+  siblings: '1'
+  stepping: '2'
+  vendor_id: AuthenticAMD
+  wp: 'yes'
+datetime: '2022-11-08 20:47:52.266587'
+dmi:
+  product_family: Virtual Machine
+  product_name: OpenStack Compute
+env:
+  APPTAINER_APPNAME: ''
+  APPTAINER_BIND: ''
+  APPTAINER_COMMAND: shell
+  APPTAINER_CONTAINER: /home/kcoakley/singularity/ngc/tensorflow_22.06-tf2-py3.sif
+  APPTAINER_ENVIRONMENT: /.singularity.d/env/91-environment.sh
+  APPTAINER_NAME: tensorflow_22.06-tf2-py3.sif
+  BASH_ENV: /etc/bash.bashrc
+  BASH_FUNC_which%%: "() {  ( alias;\n eval ${which_declare} ) | /usr/bin/which --tty-only\
+    \ --read-alias --read-functions --show-tilde --show-dot $@\n}"
+  BAZELRC: /root/.bazelrc
+  CONDA_DEFAULT_ENV: base
+  CONDA_EXE: /home/kcoakley/miniconda3/bin/conda
+  CONDA_PREFIX: /home/kcoakley/miniconda3
+  CONDA_PROMPT_MODIFIER: '(base) '
+  CONDA_PYTHON_EXE: /home/kcoakley/miniconda3/bin/python
+  CONDA_SHLVL: '1'
+  CUBLAS_VERSION: 11.10.3.66
+  CUDA_CACHE_DISABLE: '1'
+  CUDA_DRIVER_VERSION: 515.48.08
+  CUDA_VERSION: 11.7.1.014
+  CUDNN_VERSION: 8.4.1.50+cuda11.6
+  CUFFT_VERSION: 10.7.2.91
+  CURAND_VERSION: 10.2.10.91
+  CUSOLVER_VERSION: 11.4.0.1
+  CUSPARSE_VERSION: 11.7.4.91
+  CUTENSOR_VERSION: 1.5.0.3
+  DALI_BUILD: '4921308'
+  DALI_VERSION: 1.14.0
+  DBUS_SESSION_BUS_ADDRESS: unix:path=/run/user/1001/bus
+  DLPROF_VERSION: ''
+  ENV: /etc/shinit_v2
+  GDRCOPY_VERSION: '2.3'
+  HISTCONTROL: ignoredups
+  HISTSIZE: '1000'
+  HOME: /home/kcoakley
+  HOSTNAME: gpu-0.novalocal
+  HPCX_VERSION: '2.10'
+  JUPYTER_PORT: '8888'
+  LANG: en_US.UTF-8
+  LC_ALL: C.UTF-8
+  LD_LIBRARY_PATH: /usr/local/cuda/compat/lib.real:/usr/local/cuda/compat/lib.real:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/compat/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/.singularity.d/libs
+  LESSOPEN: '||/usr/bin/lesspipe.sh %s'
+  LIBRARY_PATH: '/usr/local/cuda/lib64/stubs:'
+  LOGNAME: kcoakley
+  LS_COLORS: 'rs=0:di=38;5;33:ln=38;5;51:mh=00:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=01;05;37;41:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;40:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.zst=38;5;9:*.tzst=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.wim=38;5;9:*.swm=38;5;9:*.dwm=38;5;9:*.esd=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.mjpg=38;5;13:*.mjpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.m4a=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.oga=38;5;45:*.opus=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:'
+  MAIL: /var/spool/mail/kcoakley
+  MOFED_VERSION: 5.4-rdmacore36.0
+  NCCL_VERSION: 2.12.12
+  NPP_VERSION: 11.7.4.75
+  NSIGHT_COMPUTE_VERSION: 2022.2.1.3
+  NSIGHT_SYSTEMS_VERSION: 2022.1.3.3
+  NVIDIA_BUILD_ID: '39734918'
+  NVIDIA_DRIVER_CAPABILITIES: compute,utility,video
+  NVIDIA_PRODUCT_NAME: TensorFlow
+  NVIDIA_REQUIRE_CUDA: cuda>=9.0
+  NVIDIA_TENSORFLOW_VERSION: 22.06-tf2
+  NVIDIA_VISIBLE_DEVICES: all
+  NVJPEG_VERSION: 11.8.0.2
+  NVM_DIR: /usr/local/nvm
+  OLDPWD: /home/kcoakley
+  OMPI_MCA_coll_hcoll_enable: '0'
+  OPAL_PREFIX: /opt/hpcx/ompi
+  OPENMPI_VERSION: 4.1.2rc4
+  OPENUCX_VERSION: 1.12.0
+  PATH: /usr/local/mpi/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/ucx/bin:/opt/tensorrt/bin
+  PIP_DEFAULT_TIMEOUT: '100'
+  PWD: /home/kcoakley/simple_tensorflow/code/simple_tensorflow/keras_examples/bidirectional_lstm_imdb_fixed_seed
+  PYTHONIOENCODING: utf-8
+  PYVER: '3.8'
+  RDMACORE_VERSION: '36.0'
+  SELINUX_LEVEL_REQUESTED: ''
+  SELINUX_ROLE_REQUESTED: ''
+  SELINUX_USE_CURRENT_RANGE: ''
+  SHELL: /bin/bash
+  SHLVL: '4'
+  SINGULARITY_BIND: ''
+  SINGULARITY_CONTAINER: /home/kcoakley/singularity/ngc/tensorflow_22.06-tf2-py3.sif
+  SINGULARITY_ENVIRONMENT: /.singularity.d/env/91-environment.sh
+  SINGULARITY_NAME: tensorflow_22.06-tf2-py3.sif
+  SSH_CLIENT: 192.168.0.179 57020 22
+  SSH_CONNECTION: 192.168.0.179 57020 192.168.0.120 22
+  SSH_TTY: /dev/pts/0
+  STY: 1269.pts-0.gpu-0
+  TENSORBOARD_DEBUGGER_PORT: '6064'
+  TENSORBOARD_PORT: '6006'
+  TENSORFLOW_VERSION: 2.9.1
+  TERM: screen.xterm-256color
+  TERMCAP: "SC|screen.xterm-256color|VT 100/ANSI X3.64 virtual terminal:\\\n\t:DO=\\\
+    E[%dB:LE=\\E[%dD:RI=\\E[%dC:UP=\\E[%dA:bs:bt=\\E[Z:\\\n\t:cd=\\E[J:ce=\\E[K:cl=\\\
+    E[H\\E[J:cm=\\E[%i%d;%dH:ct=\\E[3g:\\\n\t:do=^J:nd=\\E[C:pt:rc=\\E8:rs=\\Ec:sc=\\\
+    E7:st=\\EH:up=\\EM:\\\n\t:le=^H:bl=^G:cr=^M:it#8:ho=\\E[H:nw=\\EE:ta=^I:is=\\\
+    E)0:\\\n\t:li#38:co#123:am:xn:xv:LP:sr=\\EM:al=\\E[L:AL=\\E[%dL:\\\n\t:cs=\\E[%i%d;%dr:dl=\\\
+    E[M:DL=\\E[%dM:dc=\\E[P:DC=\\E[%dP:\\\n\t:im=\\E[4h:ei=\\E[4l:mi:IC=\\E[%d@:ks=\\\
+    E[?1h\\E=:\\\n\t:ke=\\E[?1l\\E>:vi=\\E[?25l:ve=\\E[34h\\E[?25h:vs=\\E[34l:\\\n\
+    \t:ti=\\E[?1049h:te=\\E[?1049l:us=\\E[4m:ue=\\E[24m:so=\\E[3m:\\\n\t:se=\\E[23m:mb=\\\
+    E[5m:md=\\E[1m:mh=\\E[2m:mr=\\E[7m:\\\n\t:me=\\E[m:ms:\\\n\t:Co#8:pa#64:AF=\\\
+    E[3%dm:AB=\\E[4%dm:op=\\E[39;49m:AX:\\\n\t:vb=\\Eg:G0:as=\\E(0:ae=\\E(B:\\\n\t\
+    :ac=\\140\\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:\\\
+    \n\t:po=\\E[5i:pf=\\E[4i:Km=\\E[M:k0=\\E[10~:k1=\\EOP:k2=\\EOQ:\\\n\t:k3=\\EOR:k4=\\\
+    EOS:k5=\\E[15~:k6=\\E[17~:k7=\\E[18~:\\\n\t:k8=\\E[19~:k9=\\E[20~:k;=\\E[21~:F1=\\\
+    E[23~:F2=\\E[24~:\\\n\t:F3=\\E[1;2P:F4=\\E[1;2Q:F5=\\E[1;2R:F6=\\E[1;2S:\\\n\t\
+    :F7=\\E[15;2~:F8=\\E[17;2~:F9=\\E[18;2~:FA=\\E[19;2~:\\\n\t:FB=\\E[20;2~:FC=\\\
+    E[21;2~:FD=\\E[23;2~:FE=\\E[24;2~:kb=\x7F:\\\n\t:K2=\\EOE:kB=\\E[Z:kF=\\E[1;2B:kR=\\\
+    E[1;2A:*4=\\E[3;2~:\\\n\t:*7=\\E[1;2F:#2=\\E[1;2H:#3=\\E[2;2~:#4=\\E[1;2D:%c=\\\
+    E[6;2~:\\\n\t:%e=\\E[5;2~:%i=\\E[1;2C:kh=\\E[1~:@1=\\E[1~:kH=\\E[4~:\\\n\t:@7=\\\
+    E[4~:kN=\\E[6~:kP=\\E[5~:kI=\\E[2~:kD=\\E[3~:ku=\\EOA:\\\n\t:kd=\\EOB:kr=\\EOC:kl=\\\
+    EOD:km:"
+  TF2_BEHAVIOR: '1'
+  TF_AUTOTUNE_THRESHOLD: '2'
+  TF_USE_CUDNN_BATCHNORM_SPATIAL_PERSISTENT: '1'
+  TRTOSS_VERSION: '22.05'
+  TRT_VERSION: 8.2.5.1+cuda11.4.2.006
+  USER: kcoakley
+  USER_PATH: /home/kcoakley/miniconda3/bin:/home/kcoakley/miniconda3/condabin:/home/kcoakley/.local/bin:/home/kcoakley/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/local/bin:/usr/local/sbin
+  WINDOW: '0'
+  XDG_RUNTIME_DIR: /run/user/1001
+  XDG_SESSION_ID: '1'
+  _: /usr/bin/python
+  _CE_CONDA: ''
+  _CE_M: ''
+  _CUDA_COMPAT_PATH: /usr/local/cuda/compat
+  _CUDA_COMPAT_STATUS: CUDA Driver OK
+  which_declare: declare -f
+gpu:
+  nvidia_smi_log:
+    attached_gpus: '1'
+    cuda_version: '11.7'
+    driver_version: 510.73.08
+    gpu:
+      '@id': '00000000:00:05.0'
+      accounted_processes: null
+      accounting_mode: Disabled
+      accounting_mode_buffer_size: '4000'
+      applications_clocks:
+        graphics_clock: N/A
+        mem_clock: N/A
+      bar1_memory_usage:
+        free: 256 MiB
+        total: 256 MiB
+        used: 0 MiB
+      board_id: '0x5'
+      clock_policy:
+        auto_boost: N/A
+        auto_boost_default: N/A
+      clocks:
+        graphics_clock: 360 MHz
+        mem_clock: 7250 MHz
+        sm_clock: 360 MHz
+        video_clock: 1275 MHz
+      clocks_throttle_reasons: N/A
+      compute_mode: Default
+      default_applications_clocks:
+        graphics_clock: N/A
+        mem_clock: N/A
+      display_active: Disabled
+      display_mode: Enabled
+      driver_model:
+        current_dm: N/A
+        pending_dm: N/A
+      ecc_errors:
+        aggregate:
+          dram_correctable: '0'
+          dram_uncorrectable: '0'
+          sram_correctable: '0'
+          sram_uncorrectable: '0'
+        volatile:
+          dram_correctable: '0'
+          dram_uncorrectable: '0'
+          sram_correctable: '0'
+          sram_uncorrectable: '0'
+      ecc_mode:
+        current_ecc: Enabled
+        pending_ecc: Enabled
+      encoder_stats:
+        average_fps: '0'
+        average_latency: '0'
+        session_count: '0'
+      fan_speed: N/A
+      fb_memory_usage:
+        free: 11075 MiB
+        reserved: 1212 MiB
+        total: 12288 MiB
+        used: 0 MiB
+      fbc_stats:
+        average_fps: '0'
+        average_latency: '0'
+        session_count: '0'
+      gpu_module_id: N/A
+      gpu_operation_mode:
+        current_gom: N/A
+        pending_gom: N/A
+      gpu_part_number: N/A
+      gpu_virtualization_mode:
+        host_vgpu_mode: N/A
+        virtualization_mode: VGPU
+      gsp_firmware_version: N/A
+      ibmnpu:
+        relaxed_ordering_mode: N/A
+      inforom_version:
+        ecc_object: N/A
+        img_version: N/A
+        oem_object: N/A
+        pwr_object: N/A
+      max_clocks:
+        graphics_clock: N/A
+        mem_clock: N/A
+        sm_clock: N/A
+        video_clock: N/A
+      max_customer_boost_clocks:
+        graphics_clock: N/A
+      mig_devices: None
+      mig_mode:
+        current_mig: N/A
+        pending_mig: N/A
+      minor_number: '0'
+      multigpu_board: 'No'
+      pci:
+        pci_bridge_chip:
+          bridge_chip_fw: N/A
+          bridge_chip_type: N/A
+        pci_bus: '00'
+        pci_bus_id: '00000000:00:05.0'
+        pci_device: '05'
+        pci_device_id: 223510DE
+        pci_domain: '0000'
+        pci_gpu_link_info:
+          link_widths:
+            current_link_width: N/A
+            max_link_width: N/A
+          pcie_gen:
+            current_link_gen: N/A
+            max_link_gen: N/A
+        pci_sub_system_id: 14DD10DE
+        replay_counter: N/A
+        replay_rollover_counter: N/A
+        rx_util: N/A
+        tx_util: N/A
+      performance_state: P0
+      persistence_mode: Enabled
+      power_readings:
+        default_power_limit: N/A
+        enforced_power_limit: N/A
+        max_power_limit: N/A
+        min_power_limit: N/A
+        power_draw: N/A
+        power_limit: N/A
+        power_management: N/A
+        power_state: P0
+      processes: null
+      product_architecture: Ampere
+      product_brand: NVIDIA RTX Virtual Workstation
+      product_name: NVIDIA A40-12Q
+      remapped_rows: N/A
+      retired_pages:
+        double_bit_retirement:
+          retired_count: N/A
+          retired_pagelist: N/A
+        multiple_single_bit_retirement:
+          retired_count: N/A
+          retired_pagelist: N/A
+        pending_blacklist: N/A
+        pending_retirement: N/A
+      serial: N/A
+      supported_clocks: N/A
+      supported_gpu_target_temp:
+        gpu_target_temp_max: N/A
+        gpu_target_temp_min: N/A
+      temperature:
+        gpu_target_temperature: N/A
+        gpu_temp: N/A
+        gpu_temp_max_gpu_threshold: N/A
+        gpu_temp_max_mem_threshold: N/A
+        gpu_temp_max_threshold: N/A
+        gpu_temp_slow_threshold: N/A
+        memory_temp: N/A
+      utilization:
+        decoder_util: 0 %
+        encoder_util: 0 %
+        gpu_util: 0 %
+        memory_util: 0 %
+      uuid: GPU-8b66d2b0-5ef1-11ed-a36b-9c6439a3ef3a
+      vbios_version: 00.00.00.00.00
+      vgpu_software_licensed_product:
+        license_status: 'Licensed (Expiry: 2022-11-9 18:38:59 GMT)'
+        licensed_product_name: NVIDIA RTX Virtual Workstation
+      voltage:
+        graphics_volt: N/A
+    timestamp: Tue Nov  8 20:47:52 2022
+hostname: gpu-0.novalocal
+os:
+  BUG_REPORT_URL: '"https://bugs.launchpad.net/ubuntu/"'
+  HOME_URL: '"https://www.ubuntu.com/"'
+  ID: ubuntu
+  ID_LIKE: debian
+  NAME: '"Ubuntu"'
+  PRETTY_NAME: '"Ubuntu 20.04.4 LTS"'
+  PRIVACY_POLICY_URL: '"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"'
+  SUPPORT_URL: '"https://help.ubuntu.com/"'
+  UBUNTU_CODENAME: focal
+  VERSION: '"20.04.4 LTS (Focal Fossa)"'
+  VERSION_CODENAME: focal
+  VERSION_ID: '"20.04"'
+python:
+  ABIFLAGS: ''
+  AC_APPLE_UNIVERSAL_BUILD: 0
+  AIX_GENUINE_CPLUSPLUS: 0
+  ALT_SOABI: 0
+  ANDROID_API_LEVEL: 0
+  AR: x86_64-linux-gnu-gcc-ar
+  ARFLAGS: rcs
+  BASECFLAGS: -Wno-unused-result -Wsign-compare
+  BASECPPFLAGS: -IObjects -IInclude -IPython
+  BASEMODLIBS: ''
+  BINDIR: /usr/bin
+  BINLIBDEST: /usr/lib/python3.8
+  BLDLIBRARY: -lpython3.8
+  BLDSHARED: 'x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions
+    -Wl,-Bsymbolic-functions  -Wl,-z,relro -g -fwrapv -O2   '
+  BUILDEXE: ''
+  BUILDPYTHON: python
+  BUILD_GNU_TYPE: x86_64-pc-linux-gnu
+  BYTESTR_DEPS: \
+  CC: x86_64-linux-gnu-gcc -pthread
+  CCSHARED: -fPIC
+  CFLAGS: '-Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g   -fstack-protector-strong
+    -Wformat -Werror=format-security  -g -fwrapv -O2   '
+  CFLAGSFORSHARED: -fPIC
+  CFLAGS_ALIASING: ''
+  CFLAGS_NODIST: ''
+  CONFIGFILES: configure configure.ac acconfig.h pyconfig.h.in Makefile.pre.in
+  CONFIGURE_CFLAGS: -g   -fstack-protector-strong -Wformat -Werror=format-security
+  CONFIGURE_CFLAGS_NODIST: -std=c99 -Wextra -Wno-unused-result -Wno-unused-parameter
+    -Wno-missing-field-initializers -Werror=implicit-function-declaration
+  CONFIGURE_CPPFLAGS: -Wdate-time -D_FORTIFY_SOURCE=2
+  CONFIGURE_LDFLAGS: '-Wl,-Bsymbolic-functions  -Wl,-z,relro -g -fwrapv -O2   '
+  CONFIGURE_LDFLAGS_NODIST: ''
+  CONFIG_ARGS: '''--enable-shared'' ''--prefix=/usr'' ''--enable-ipv6'' ''--enable-loadable-sqlite-extensions''
+    ''--with-dbmliborder=bdb:gdbm'' ''--with-computed-gotos'' ''--without-ensurepip''
+    ''--with-system-expat'' ''--with-dtrace'' ''--with-system-libmpdec'' ''--with-system-ffi''
+    ''CC=x86_64-linux-gnu-gcc'' ''CFLAGS=-g   -fstack-protector-strong -Wformat -Werror=format-security
+    '' ''LDFLAGS=-Wl,-Bsymbolic-functions  -Wl,-z,relro -g -fwrapv -O2   '' ''CPPFLAGS=-Wdate-time
+    -D_FORTIFY_SOURCE=2'''
+  CONFINCLUDEDIR: /usr/include
+  CONFINCLUDEPY: /usr/include/python3.8
+  COREPYTHONPATH: ''
+  COVERAGE_INFO: /build/python3.8-4wuY7n/python3.8-3.8.10/build-shared/coverage.info
+  COVERAGE_REPORT: /build/python3.8-4wuY7n/python3.8-3.8.10/build-shared/lcov-report
+  COVERAGE_REPORT_OPTIONS: --no-branch-coverage --title "CPython lcov report"
+  CPPFLAGS: -IObjects -IInclude -IPython -I. -I../Include -Wdate-time -D_FORTIFY_SOURCE=2
+  CXX: x86_64-linux-gnu-g++ -pthread
+  DESTDIRS: /usr /usr/lib /usr/lib/python3.8 /usr/lib/python3.8/lib-dynload
+  DESTLIB: /usr/lib/python3.8
+  DESTPATH: ''
+  DESTSHARED: /usr/lib/python3.8/lib-dynload
+  DFLAGS: ''
+  DIRMODE: 755
+  DIST: README.rst ChangeLog configure configure.ac acconfig.h pyconfig.h.in Makefile.pre.in
+    Include Lib Misc Ext-dummy
+  DISTDIRS: Include Lib Misc Ext-dummy
+  DISTFILES: README.rst ChangeLog configure configure.ac acconfig.h pyconfig.h.in
+    Makefile.pre.in
+  DLINCLDIR: .
+  DLLLIBRARY: ''
+  DOUBLE_IS_ARM_MIXED_ENDIAN_IEEE754: 0
+  DOUBLE_IS_BIG_ENDIAN_IEEE754: 0
+  DOUBLE_IS_LITTLE_ENDIAN_IEEE754: 1
+  DTRACE: /usr/bin/dtrace
+  DTRACE_DEPS: \
+  DTRACE_HEADERS: Include/pydtrace_probes.h
+  DTRACE_OBJS: Python/pydtrace.o
+  DYNLOADFILE: dynload_shlib.o
+  ENABLE_IPV6: 1
+  ENSUREPIP: 'no'
+  EXE: ''
+  EXEMODE: 755
+  EXTRATESTOPTS: ''
+  EXT_SUFFIX: .cpython-38-x86_64-linux-gnu.so
+  FILEMODE: 644
+  FLOAT_WORDS_BIGENDIAN: 0
+  FLOCK_NEEDS_LIBBSD: 0
+  GETPGRP_HAVE_ARG: 0
+  GETTIMEOFDAY_NO_TZ: 0
+  GITBRANCH: ''
+  GITTAG: ''
+  GITVERSION: ''
+  GNULD: 'yes'
+  HAVE_ACCEPT4: 1
+  HAVE_ACOSH: 1
+  HAVE_ADDRINFO: 1
+  HAVE_ALARM: 1
+  HAVE_ALIGNED_REQUIRED: 0
+  HAVE_ALLOCA_H: 1
+  HAVE_ALTZONE: 0
+  HAVE_ASINH: 1
+  HAVE_ASM_TYPES_H: 1
+  HAVE_ATANH: 1
+  HAVE_BIND_TEXTDOMAIN_CODESET: 1
+  HAVE_BLUETOOTH_BLUETOOTH_H: 1
+  HAVE_BLUETOOTH_H: 0
+  HAVE_BROKEN_MBSTOWCS: 0
+  HAVE_BROKEN_NICE: 0
+  HAVE_BROKEN_PIPE_BUF: 0
+  HAVE_BROKEN_POLL: 0
+  HAVE_BROKEN_POSIX_SEMAPHORES: 0
+  HAVE_BROKEN_PTHREAD_SIGMASK: 0
+  HAVE_BROKEN_SEM_GETVALUE: 0
+  HAVE_BROKEN_UNSETENV: 0
+  HAVE_BUILTIN_ATOMIC: 1
+  HAVE_CHFLAGS: 0
+  HAVE_CHOWN: 1
+  HAVE_CHROOT: 1
+  HAVE_CLOCK: 1
+  HAVE_CLOCK_GETRES: 1
+  HAVE_CLOCK_GETTIME: 1
+  HAVE_CLOCK_SETTIME: 1
+  HAVE_COMPUTED_GOTOS: 1
+  HAVE_CONFSTR: 1
+  HAVE_CONIO_H: 0
+  HAVE_COPYSIGN: 1
+  HAVE_COPY_FILE_RANGE: 1
+  HAVE_CRYPT_H: 1
+  HAVE_CRYPT_R: 1
+  HAVE_CTERMID: 1
+  HAVE_CTERMID_R: 0
+  HAVE_CURSES_FILTER: 1
+  HAVE_CURSES_H: 1
+  HAVE_CURSES_HAS_KEY: 1
+  HAVE_CURSES_IMMEDOK: 1
+  HAVE_CURSES_IS_PAD: 1
+  HAVE_CURSES_IS_TERM_RESIZED: 1
+  HAVE_CURSES_RESIZETERM: 1
+  HAVE_CURSES_RESIZE_TERM: 1
+  HAVE_CURSES_SYNCOK: 1
+  HAVE_CURSES_TYPEAHEAD: 1
+  HAVE_CURSES_USE_ENV: 1
+  HAVE_CURSES_WCHGAT: 1
+  HAVE_DECL_ISFINITE: 1
+  HAVE_DECL_ISINF: 1
+  HAVE_DECL_ISNAN: 1
+  HAVE_DECL_RTLD_DEEPBIND: 1
+  HAVE_DECL_RTLD_GLOBAL: 1
+  HAVE_DECL_RTLD_LAZY: 1
+  HAVE_DECL_RTLD_LOCAL: 1
+  HAVE_DECL_RTLD_MEMBER: 0
+  HAVE_DECL_RTLD_NODELETE: 1
+  HAVE_DECL_RTLD_NOLOAD: 1
+  HAVE_DECL_RTLD_NOW: 1
+  HAVE_DECL_TZNAME: 0
+  HAVE_DEVICE_MACROS: 1
+  HAVE_DEV_PTC: 0
+  HAVE_DEV_PTMX: 1
+  HAVE_DIRECT_H: 0
+  HAVE_DIRENT_D_TYPE: 1
+  HAVE_DIRENT_H: 1
+  HAVE_DIRFD: 1
+  HAVE_DLFCN_H: 1
+  HAVE_DLOPEN: 1
+  HAVE_DUP2: 1
+  HAVE_DUP3: 1
+  HAVE_DYLD_SHARED_CACHE_CONTAINS_PATH: 0
+  HAVE_DYNAMIC_LOADING: 1
+  HAVE_ENDIAN_H: 1
+  HAVE_EPOLL: 1
+  HAVE_EPOLL_CREATE1: 1
+  HAVE_ERF: 1
+  HAVE_ERFC: 1
+  HAVE_ERRNO_H: 1
+  HAVE_EXECV: 1
+  HAVE_EXPLICIT_BZERO: 1
+  HAVE_EXPLICIT_MEMSET: 0
+  HAVE_EXPM1: 1
+  HAVE_FACCESSAT: 1
+  HAVE_FCHDIR: 1
+  HAVE_FCHMOD: 1
+  HAVE_FCHMODAT: 1
+  HAVE_FCHOWN: 1
+  HAVE_FCHOWNAT: 1
+  HAVE_FCNTL_H: 1
+  HAVE_FDATASYNC: 1
+  HAVE_FDOPENDIR: 1
+  HAVE_FDWALK: 0
+  HAVE_FEXECVE: 1
+  HAVE_FINITE: 1
+  HAVE_FLOCK: 1
+  HAVE_FORK: 1
+  HAVE_FORKPTY: 1
+  HAVE_FPATHCONF: 1
+  HAVE_FSEEK64: 0
+  HAVE_FSEEKO: 1
+  HAVE_FSTATAT: 1
+  HAVE_FSTATVFS: 1
+  HAVE_FSYNC: 1
+  HAVE_FTELL64: 0
+  HAVE_FTELLO: 1
+  HAVE_FTIME: 1
+  HAVE_FTRUNCATE: 1
+  HAVE_FUTIMENS: 1
+  HAVE_FUTIMES: 1
+  HAVE_FUTIMESAT: 1
+  HAVE_GAI_STRERROR: 1
+  HAVE_GAMMA: 1
+  HAVE_GCC_ASM_FOR_MC68881: 0
+  HAVE_GCC_ASM_FOR_X64: 1
+  HAVE_GCC_ASM_FOR_X87: 1
+  HAVE_GCC_UINT128_T: 1
+  HAVE_GETADDRINFO: 1
+  HAVE_GETC_UNLOCKED: 1
+  HAVE_GETENTROPY: 1
+  HAVE_GETGRGID_R: 1
+  HAVE_GETGRNAM_R: 1
+  HAVE_GETGROUPLIST: 1
+  HAVE_GETGROUPS: 1
+  HAVE_GETHOSTBYNAME: 0
+  HAVE_GETHOSTBYNAME_R: 1
+  HAVE_GETHOSTBYNAME_R_3_ARG: 0
+  HAVE_GETHOSTBYNAME_R_5_ARG: 0
+  HAVE_GETHOSTBYNAME_R_6_ARG: 1
+  HAVE_GETITIMER: 1
+  HAVE_GETLOADAVG: 1
+  HAVE_GETLOGIN: 1
+  HAVE_GETNAMEINFO: 1
+  HAVE_GETPAGESIZE: 1
+  HAVE_GETPEERNAME: 1
+  HAVE_GETPGID: 1
+  HAVE_GETPGRP: 1
+  HAVE_GETPID: 1
+  HAVE_GETPRIORITY: 1
+  HAVE_GETPWENT: 1
+  HAVE_GETPWNAM_R: 1
+  HAVE_GETPWUID_R: 1
+  HAVE_GETRANDOM: 1
+  HAVE_GETRANDOM_SYSCALL: 1
+  HAVE_GETRESGID: 1
+  HAVE_GETRESUID: 1
+  HAVE_GETSID: 1
+  HAVE_GETSPENT: 1
+  HAVE_GETSPNAM: 1
+  HAVE_GETTIMEOFDAY: 1
+  HAVE_GETWD: 1
+  HAVE_GLIBC_MEMMOVE_BUG: 0
+  HAVE_GRP_H: 1
+  HAVE_HSTRERROR: 1
+  HAVE_HTOLE64: 1
+  HAVE_HYPOT: 1
+  HAVE_IEEEFP_H: 0
+  HAVE_IF_NAMEINDEX: 1
+  HAVE_INET_ATON: 1
+  HAVE_INET_PTON: 1
+  HAVE_INITGROUPS: 1
+  HAVE_INTTYPES_H: 1
+  HAVE_IO_H: 0
+  HAVE_IPA_PURE_CONST_BUG: 0
+  HAVE_KILL: 1
+  HAVE_KILLPG: 1
+  HAVE_KQUEUE: 0
+  HAVE_LANGINFO_H: 1
+  HAVE_LARGEFILE_SUPPORT: 0
+  HAVE_LCHFLAGS: 0
+  HAVE_LCHMOD: 0
+  HAVE_LCHOWN: 1
+  HAVE_LGAMMA: 1
+  HAVE_LIBDL: 1
+  HAVE_LIBDLD: 0
+  HAVE_LIBIEEE: 0
+  HAVE_LIBINTL_H: 1
+  HAVE_LIBREADLINE: 1
+  HAVE_LIBRESOLV: 0
+  HAVE_LIBSENDFILE: 0
+  HAVE_LIBUTIL_H: 0
+  HAVE_LINK: 1
+  HAVE_LINKAT: 1
+  HAVE_LINUX_CAN_BCM_H: 1
+  HAVE_LINUX_CAN_H: 1
+  HAVE_LINUX_CAN_RAW_FD_FRAMES: 1
+  HAVE_LINUX_CAN_RAW_H: 1
+  HAVE_LINUX_MEMFD_H: 1
+  HAVE_LINUX_NETLINK_H: 1
+  HAVE_LINUX_QRTR_H: 1
+  HAVE_LINUX_RANDOM_H: 1
+  HAVE_LINUX_TIPC_H: 1
+  HAVE_LINUX_VM_SOCKETS_H: 1
+  HAVE_LOCKF: 1
+  HAVE_LOG1P: 1
+  HAVE_LOG2: 1
+  HAVE_LONG_DOUBLE: 1
+  HAVE_LSTAT: 1
+  HAVE_LUTIMES: 1
+  HAVE_MADVISE: 1
+  HAVE_MAKEDEV: 1
+  HAVE_MBRTOWC: 1
+  HAVE_MEMFD_CREATE: 1
+  HAVE_MEMORY_H: 1
+  HAVE_MEMRCHR: 1
+  HAVE_MKDIRAT: 1
+  HAVE_MKFIFO: 1
+  HAVE_MKFIFOAT: 1
+  HAVE_MKNOD: 1
+  HAVE_MKNODAT: 1
+  HAVE_MKTIME: 1
+  HAVE_MMAP: 1
+  HAVE_MREMAP: 1
+  HAVE_NCURSES_H: 1
+  HAVE_NDIR_H: 0
+  HAVE_NETPACKET_PACKET_H: 1
+  HAVE_NET_IF_H: 1
+  HAVE_NICE: 1
+  HAVE_OPENAT: 1
+  HAVE_OPENPTY: 1
+  HAVE_PATHCONF: 1
+  HAVE_PAUSE: 1
+  HAVE_PIPE2: 1
+  HAVE_PLOCK: 0
+  HAVE_POLL: 1
+  HAVE_POLL_H: 1
+  HAVE_POSIX_FADVISE: 1
+  HAVE_POSIX_FALLOCATE: 1
+  HAVE_POSIX_SPAWN: 1
+  HAVE_POSIX_SPAWNP: 1
+  HAVE_PREAD: 1
+  HAVE_PREADV: 1
+  HAVE_PREADV2: 1
+  HAVE_PRLIMIT: 1
+  HAVE_PROCESS_H: 0
+  HAVE_PROTOTYPES: 1
+  HAVE_PTHREAD_CONDATTR_SETCLOCK: 1
+  HAVE_PTHREAD_DESTRUCTOR: 0
+  HAVE_PTHREAD_GETCPUCLOCKID: 1
+  HAVE_PTHREAD_H: 1
+  HAVE_PTHREAD_INIT: 0
+  HAVE_PTHREAD_KILL: 1
+  HAVE_PTHREAD_SIGMASK: 1
+  HAVE_PTY_H: 1
+  HAVE_PUTENV: 1
+  HAVE_PWRITE: 1
+  HAVE_PWRITEV: 1
+  HAVE_PWRITEV2: 1
+  HAVE_READLINK: 1
+  HAVE_READLINKAT: 1
+  HAVE_READV: 1
+  HAVE_REALPATH: 1
+  HAVE_RENAMEAT: 1
+  HAVE_RL_APPEND_HISTORY: 1
+  HAVE_RL_CATCH_SIGNAL: 1
+  HAVE_RL_COMPLETION_APPEND_CHARACTER: 1
+  HAVE_RL_COMPLETION_DISPLAY_MATCHES_HOOK: 1
+  HAVE_RL_COMPLETION_MATCHES: 1
+  HAVE_RL_COMPLETION_SUPPRESS_APPEND: 1
+  HAVE_RL_PRE_INPUT_HOOK: 1
+  HAVE_RL_RESIZE_TERMINAL: 1
+  HAVE_ROUND: 1
+  HAVE_RTPSPAWN: 0
+  HAVE_SCHED_GET_PRIORITY_MAX: 1
+  HAVE_SCHED_H: 1
+  HAVE_SCHED_RR_GET_INTERVAL: 1
+  HAVE_SCHED_SETAFFINITY: 1
+  HAVE_SCHED_SETPARAM: 1
+  HAVE_SCHED_SETSCHEDULER: 1
+  HAVE_SEM_GETVALUE: 1
+  HAVE_SEM_OPEN: 1
+  HAVE_SEM_TIMEDWAIT: 1
+  HAVE_SEM_UNLINK: 1
+  HAVE_SENDFILE: 1
+  HAVE_SETEGID: 1
+  HAVE_SETEUID: 1
+  HAVE_SETGID: 1
+  HAVE_SETGROUPS: 1
+  HAVE_SETHOSTNAME: 1
+  HAVE_SETITIMER: 1
+  HAVE_SETLOCALE: 1
+  HAVE_SETPGID: 1
+  HAVE_SETPGRP: 1
+  HAVE_SETPRIORITY: 1
+  HAVE_SETREGID: 1
+  HAVE_SETRESGID: 1
+  HAVE_SETRESUID: 1
+  HAVE_SETREUID: 1
+  HAVE_SETSID: 1
+  HAVE_SETUID: 1
+  HAVE_SETVBUF: 1
+  HAVE_SHADOW_H: 1
+  HAVE_SHM_OPEN: 1
+  HAVE_SHM_UNLINK: 1
+  HAVE_SIGACTION: 1
+  HAVE_SIGALTSTACK: 1
+  HAVE_SIGFILLSET: 1
+  HAVE_SIGINFO_T_SI_BAND: 1
+  HAVE_SIGINTERRUPT: 1
+  HAVE_SIGNAL_H: 1
+  HAVE_SIGPENDING: 1
+  HAVE_SIGRELSE: 1
+  HAVE_SIGTIMEDWAIT: 1
+  HAVE_SIGWAIT: 1
+  HAVE_SIGWAITINFO: 1
+  HAVE_SNPRINTF: 1
+  HAVE_SOCKADDR_ALG: 1
+  HAVE_SOCKADDR_SA_LEN: 0
+  HAVE_SOCKADDR_STORAGE: 1
+  HAVE_SOCKETPAIR: 1
+  HAVE_SPAWN_H: 1
+  HAVE_SSIZE_T: 1
+  HAVE_STATVFS: 1
+  HAVE_STAT_TV_NSEC: 1
+  HAVE_STAT_TV_NSEC2: 0
+  HAVE_STDARG_PROTOTYPES: 1
+  HAVE_STDINT_H: 1
+  HAVE_STDLIB_H: 1
+  HAVE_STD_ATOMIC: 1
+  HAVE_STRDUP: 1
+  HAVE_STRFTIME: 1
+  HAVE_STRINGS_H: 1
+  HAVE_STRING_H: 1
+  HAVE_STRLCPY: 0
+  HAVE_STROPTS_H: 0
+  HAVE_STRSIGNAL: 1
+  HAVE_STRUCT_PASSWD_PW_GECOS: 1
+  HAVE_STRUCT_PASSWD_PW_PASSWD: 1
+  HAVE_STRUCT_STAT_ST_BIRTHTIME: 0
+  HAVE_STRUCT_STAT_ST_BLKSIZE: 1
+  HAVE_STRUCT_STAT_ST_BLOCKS: 1
+  HAVE_STRUCT_STAT_ST_FLAGS: 0
+  HAVE_STRUCT_STAT_ST_GEN: 0
+  HAVE_STRUCT_STAT_ST_RDEV: 1
+  HAVE_STRUCT_TM_TM_ZONE: 1
+  HAVE_SYMLINK: 1
+  HAVE_SYMLINKAT: 1
+  HAVE_SYNC: 1
+  HAVE_SYSCONF: 1
+  HAVE_SYSEXITS_H: 1
+  HAVE_SYS_AUDIOIO_H: 0
+  HAVE_SYS_BSDTTY_H: 0
+  HAVE_SYS_DEVPOLL_H: 0
+  HAVE_SYS_DIR_H: 0
+  HAVE_SYS_ENDIAN_H: 0
+  HAVE_SYS_EPOLL_H: 1
+  HAVE_SYS_EVENT_H: 0
+  HAVE_SYS_FILE_H: 1
+  HAVE_SYS_IOCTL_H: 1
+  HAVE_SYS_KERN_CONTROL_H: 0
+  HAVE_SYS_LOADAVG_H: 0
+  HAVE_SYS_LOCK_H: 0
+  HAVE_SYS_MEMFD_H: 0
+  HAVE_SYS_MKDEV_H: 0
+  HAVE_SYS_MMAN_H: 1
+  HAVE_SYS_MODEM_H: 0
+  HAVE_SYS_NDIR_H: 0
+  HAVE_SYS_PARAM_H: 1
+  HAVE_SYS_POLL_H: 1
+  HAVE_SYS_RANDOM_H: 1
+  HAVE_SYS_RESOURCE_H: 1
+  HAVE_SYS_SELECT_H: 1
+  HAVE_SYS_SENDFILE_H: 1
+  HAVE_SYS_SOCKET_H: 1
+  HAVE_SYS_STATVFS_H: 1
+  HAVE_SYS_STAT_H: 1
+  HAVE_SYS_SYSCALL_H: 1
+  HAVE_SYS_SYSMACROS_H: 1
+  HAVE_SYS_SYS_DOMAIN_H: 0
+  HAVE_SYS_TERMIO_H: 0
+  HAVE_SYS_TIMES_H: 1
+  HAVE_SYS_TIME_H: 1
+  HAVE_SYS_TYPES_H: 1
+  HAVE_SYS_UIO_H: 1
+  HAVE_SYS_UN_H: 1
+  HAVE_SYS_UTSNAME_H: 1
+  HAVE_SYS_WAIT_H: 1
+  HAVE_SYS_XATTR_H: 1
+  HAVE_TCGETPGRP: 1
+  HAVE_TCSETPGRP: 1
+  HAVE_TEMPNAM: 1
+  HAVE_TERMIOS_H: 1
+  HAVE_TERM_H: 1
+  HAVE_TGAMMA: 1
+  HAVE_TIMEGM: 1
+  HAVE_TIMES: 1
+  HAVE_TMPFILE: 1
+  HAVE_TMPNAM: 1
+  HAVE_TMPNAM_R: 1
+  HAVE_TM_ZONE: 1
+  HAVE_TRUNCATE: 1
+  HAVE_TZNAME: 0
+  HAVE_UCS4_TCL: 0
+  HAVE_UNAME: 1
+  HAVE_UNISTD_H: 1
+  HAVE_UNLINKAT: 1
+  HAVE_UNSETENV: 1
+  HAVE_USABLE_WCHAR_T: 0
+  HAVE_UTIL_H: 0
+  HAVE_UTIMENSAT: 1
+  HAVE_UTIMES: 1
+  HAVE_UTIME_H: 1
+  HAVE_UUID_CREATE: 0
+  HAVE_UUID_ENC_BE: 0
+  HAVE_UUID_GENERATE_TIME_SAFE: 1
+  HAVE_UUID_H: 0
+  HAVE_UUID_UUID_H: 1
+  HAVE_WAIT3: 1
+  HAVE_WAIT4: 1
+  HAVE_WAITID: 1
+  HAVE_WAITPID: 1
+  HAVE_WCHAR_H: 1
+  HAVE_WCSCOLL: 1
+  HAVE_WCSFTIME: 1
+  HAVE_WCSXFRM: 1
+  HAVE_WMEMCMP: 1
+  HAVE_WORKING_TZSET: 1
+  HAVE_WRITEV: 1
+  HAVE_X509_VERIFY_PARAM_SET1_HOST: 1
+  HAVE_ZLIB_COPY: 1
+  HAVE__GETPTY: 0
+  HOST_GNU_TYPE: x86_64-pc-linux-gnu
+  INCLDIRSTOMAKE: /usr/include /usr/include /usr/include/python3.8 /usr/include/python3.8
+  INCLUDEDIR: /usr/include
+  INCLUDEPY: /usr/include/python3.8
+  INSTALL: /usr/bin/install -c
+  INSTALL_DATA: /usr/bin/install -c -m 644
+  INSTALL_PROGRAM: /usr/bin/install -c
+  INSTALL_SCRIPT: /usr/bin/install -c
+  INSTALL_SHARED: /usr/bin/install -c -m 755
+  INSTSONAME: libpython3.8.so.1.0
+  IO_H: Modules/_io/_iomodule.h
+  IO_OBJS: \
+  LDCXXSHARED: x86_64-linux-gnu-g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions
+  LDFLAGS: '-Wl,-Bsymbolic-functions  -Wl,-z,relro -g -fwrapv -O2   '
+  LDFLAGS_NODIST: ''
+  LDLIBRARY: libpython3.8.so
+  LDLIBRARYDIR: ''
+  LDSHARED: 'x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions
+    -Wl,-Bsymbolic-functions  -Wl,-z,relro -g -fwrapv -O2   '
+  LDVERSION: '3.8'
+  LIBC: ''
+  LIBDEST: /usr/lib/python3.8
+  LIBDIR: /usr/lib
+  LIBFFI_INCLUDEDIR: ''
+  LIBM: -lm
+  LIBOBJDIR: Python/
+  LIBOBJS: ''
+  LIBPC: /usr/lib/x86_64-linux-gnu/pkgconfig
+  LIBPL: /usr/lib/python3.8/config-3.8-x86_64-linux-gnu
+  LIBPYTHON: ''
+  LIBRARY: libpython3.8.a
+  LIBRARY_OBJS: \
+  LIBRARY_OBJS_OMIT_FROZEN: \
+  LIBS: -lcrypt -lpthread -ldl  -lutil -lm
+  LIBSUBDIRS: tkinter tkinter/test tkinter/test/test_tkinter \
+  LINKCC: x86_64-linux-gnu-gcc -pthread
+  LINKFORSHARED: -Xlinker -export-dynamic -Wl,-O1 -Wl,-Bsymbolic-functions
+  LIPO_32BIT_FLAGS: ''
+  LIPO_INTEL64_FLAGS: ''
+  LLVM_PROF_ERR: 'no'
+  LLVM_PROF_FILE: ''
+  LLVM_PROF_MERGER: 'true'
+  LN: ln
+  LOCALMODLIBS: -lexpat                       -L/usr/lib -lz                       -lexpat
+  MACHDEP: linux
+  MACHDEP_OBJS: ''
+  MACHDESTLIB: /usr/lib/python3.8
+  MACOSX_DEPLOYMENT_TARGET: ''
+  MAINCC: x86_64-linux-gnu-gcc -pthread
+  MAJOR_IN_MKDEV: 0
+  MAJOR_IN_SYSMACROS: 1
+  MAKESETUP: ../Modules/makesetup
+  MANDIR: /usr/share/man
+  MKDIR_P: /bin/mkdir -p
+  MODBUILT_NAMES: array  cmath  math  _struct  _random  _elementtree  _pickle  _datetime  _bisect  _heapq  _statistics  unicodedata  fcntl  spwd  grp  select  _csv  _socket  _posixsubprocess  _md5  _sha1  _sha256  _sha512  _sha3  _blake2  syslog  binascii  zlib  posix  errno  pwd  _sre  _codecs  _weakref  _functools  _operator  _collections  _abc  itertools  atexit  _signal  _stat  time  _thread  _locale  _io  faulthandler  _tracemalloc  _symtable  pyexpat  xxsubtype
+  MODDISABLED_NAMES: ''
+  MODLIBS: -lexpat                       -L/usr/lib -lz                       -lexpat
+  MODOBJS: $(sort   Modules/arraymodule.o  Modules/cmathmodule.o Modules/_math.o  Modules/mathmodule.o
+    Modules/_math.o  Modules/_struct.o  Modules/_randommodule.o  Modules/_elementtree.o  Modules/_pickle.o  Modules/_datetimemodule.o  Modules/_bisectmodule.o  Modules/_heapqmodule.o  Modules/_statisticsmodule.o  Modules/unicodedata.o  Modules/fcntlmodule.o  Modules/spwdmodule.o  Modules/grpmodule.o  Modules/selectmodule.o  Modules/_csv.o  Modules/socketmodule.o  Modules/_posixsubprocess.o  Modules/md5module.o  Modules/sha1module.o  Modules/sha256module.o  Modules/sha512module.o  Modules/sha3module.o  Modules/blake2module.o
+    Modules/blake2b_impl.o Modules/blake2s_impl.o  Modules/syslogmodule.o  Modules/binascii.o  Modules/zlibmodule.o  Modules/posixmodule.o  Modules/errnomodule.o  Modules/pwdmodule.o  Modules/_sre.o  Modules/_codecsmodule.o  Modules/_weakref.o  Modules/_functoolsmodule.o  Modules/_operator.o  Modules/_collectionsmodule.o  Modules/_abc.o  Modules/itertoolsmodule.o  Modules/atexitmodule.o  Modules/signalmodule.o  Modules/_stat.o  Modules/timemodule.o  Modules/_threadmodule.o  Modules/_localemodule.o  Modules/_iomodule.o
+    Modules/iobase.o Modules/fileio.o Modules/bytesio.o Modules/bufferedio.o Modules/textio.o
+    Modules/stringio.o  Modules/faulthandler.o  Modules/_tracemalloc.o Modules/hashtable.o  Modules/symtablemodule.o  Modules/pyexpat.o  Modules/xxsubtype.o)
+  MODULE_OBJS: \
+  MULTIARCH: x86_64-linux-gnu
+  MULTIARCH_CPPFLAGS: -DMULTIARCH=\"x86_64-linux-gnu\"
+  MVWDELCH_IS_EXPRESSION: 1
+  NO_AS_NEEDED: -Wl,--no-as-needed
+  OBJECT_OBJS: \
+  OPENSSL_INCLUDES: ''
+  OPENSSL_LDFLAGS: ''
+  OPENSSL_LIBS: -lssl -lcrypto
+  OPT: -DNDEBUG -g -fwrapv -O2 -Wall
+  OTHER_LIBTOOL_OPT: ''
+  PACKAGE_BUGREPORT: 0
+  PACKAGE_NAME: 0
+  PACKAGE_STRING: 0
+  PACKAGE_TARNAME: 0
+  PACKAGE_URL: 0
+  PACKAGE_VERSION: 0
+  PARSER_HEADERS: \
+  PARSER_OBJS: \ Parser/myreadline.o Parser/parsetok.o Parser/tokenizer.o
+  PGO_PROF_GEN_FLAG: -fprofile-generate
+  PGO_PROF_USE_FLAG: ''
+  POBJS: \
+  POSIX_SEMAPHORES_NOT_ENABLED: 0
+  PROFILE_TASK: -m test --pgo
+  PTHREAD_KEY_T_IS_COMPATIBLE_WITH_INT: 1
+  PTHREAD_SYSTEM_SCHED_SUPPORTED: 1
+  PURIFY: ''
+  PY3LIBRARY: libpython3.so
+  PYLONG_BITS_IN_DIGIT: 0
+  PYTHON: python
+  PYTHONFRAMEWORK: ''
+  PYTHONFRAMEWORKDIR: no-framework
+  PYTHONFRAMEWORKINSTALLDIR: ''
+  PYTHONFRAMEWORKPREFIX: ''
+  PYTHONPATH: ''
+  PYTHON_FOR_BUILD: ./python -E
+  PYTHON_FOR_REGEN: python3.8
+  PYTHON_HEADERS: \
+  PYTHON_OBJS: \
+  PY_BUILTIN_MODULE_CFLAGS: -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv
+    -O2 -Wall -g   -fstack-protector-strong -Wformat -Werror=format-security  -g -fwrapv
+    -O2    -std=c99 -Wextra -Wno-unused-result -Wno-unused-parameter -Wno-missing-field-initializers
+    -Werror=implicit-function-declaration  -I../Include/internal -IObjects -IInclude
+    -IPython -I. -I../Include -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -DPy_BUILD_CORE_BUILTIN
+  PY_CFLAGS: '-Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall -g   -fstack-protector-strong
+    -Wformat -Werror=format-security  -g -fwrapv -O2   '
+  PY_CFLAGS_NODIST: -std=c99 -Wextra -Wno-unused-result -Wno-unused-parameter -Wno-missing-field-initializers
+    -Werror=implicit-function-declaration  -I../Include/internal
+  PY_COERCE_C_LOCALE: 1
+  PY_CORE_CFLAGS: -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall
+    -g   -fstack-protector-strong -Wformat -Werror=format-security  -g -fwrapv -O2    -std=c99
+    -Wextra -Wno-unused-result -Wno-unused-parameter -Wno-missing-field-initializers
+    -Werror=implicit-function-declaration  -I../Include/internal -IObjects -IInclude
+    -IPython -I. -I../Include -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -DPy_BUILD_CORE
+  PY_CORE_LDFLAGS: '-Wl,-Bsymbolic-functions  -Wl,-z,relro -g -fwrapv -O2   '
+  PY_CPPFLAGS: -IObjects -IInclude -IPython -I. -I../Include -Wdate-time -D_FORTIFY_SOURCE=2
+  PY_FORMAT_SIZE_T: '"z"'
+  PY_LDFLAGS: '-Wl,-Bsymbolic-functions  -Wl,-z,relro -g -fwrapv -O2   '
+  PY_LDFLAGS_NODIST: ''
+  PY_SSL_DEFAULT_CIPHERS: 1
+  PY_SSL_DEFAULT_CIPHER_STRING: 0
+  PY_STDMODULE_CFLAGS: -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O2 -Wall
+    -g   -fstack-protector-strong -Wformat -Werror=format-security  -g -fwrapv -O2    -std=c99
+    -Wextra -Wno-unused-result -Wno-unused-parameter -Wno-missing-field-initializers
+    -Werror=implicit-function-declaration  -I../Include/internal -IObjects -IInclude
+    -IPython -I. -I../Include -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC
+  Py_DEBUG: 0
+  Py_ENABLE_SHARED: 1
+  Py_HASH_ALGORITHM: 0
+  Py_TRACE_REFS: 0
+  QUICKTESTOPTS: -x test_subprocess test_io test_lib2to3 \
+  READELF: readelf
+  RESSRCDIR: Mac/Resources/framework
+  RETSIGTYPE: void
+  RUNSHARED: LD_LIBRARY_PATH=/build/python3.8-4wuY7n/python3.8-3.8.10/build-shared
+  SCRIPTDIR: /usr/lib
+  SETPGRP_HAVE_ARG: 0
+  SGI_ABI: '@SGI_ABI@'
+  SHELL: /bin/sh
+  SHLIBS: -lcrypt -lpthread -ldl  -lutil -lm
+  SHLIB_SUFFIX: .so
+  SHM_NEEDS_LIBRT: 1
+  SIGNED_RIGHT_SHIFT_ZERO_FILLS: 0
+  SITEPATH: ''
+  SIZEOF_DOUBLE: 8
+  SIZEOF_FLOAT: 4
+  SIZEOF_FPOS_T: 16
+  SIZEOF_INT: 4
+  SIZEOF_LONG: 8
+  SIZEOF_LONG_DOUBLE: 16
+  SIZEOF_LONG_LONG: 8
+  SIZEOF_OFF_T: 8
+  SIZEOF_PID_T: 4
+  SIZEOF_PTHREAD_KEY_T: 4
+  SIZEOF_PTHREAD_T: 8
+  SIZEOF_SHORT: 2
+  SIZEOF_SIZE_T: 8
+  SIZEOF_TIME_T: 8
+  SIZEOF_UINTPTR_T: 8
+  SIZEOF_VOID_P: 8
+  SIZEOF_WCHAR_T: 4
+  SIZEOF__BOOL: 1
+  SO: .cpython-38-x86_64-linux-gnu.so
+  SOABI: cpython-38-x86_64-linux-gnu
+  SRCDIRS: Parser Objects Python Modules Modules/_io Programs
+  SRC_GDB_HOOKS: ../Tools/gdb/libpython.py
+  STDC_HEADERS: 1
+  STRICT_SYSV_CURSES: /* Don't use ncurses extensions */
+  STRIPFLAG: -s
+  SUBDIRS: ''
+  SUBDIRSTOO: Include Lib Misc
+  SYSLIBS: -lm
+  SYS_SELECT_WITH_SYS_TIME: 1
+  TCLTK_INCLUDES: ''
+  TCLTK_LIBS: ''
+  TESTOPTS: ''
+  TESTPATH: ''
+  TESTPYTHON: LD_LIBRARY_PATH=/build/python3.8-4wuY7n/python3.8-3.8.10/build-shared
+    ./python
+  TESTPYTHONOPTS: ''
+  TESTRUNNER: LD_LIBRARY_PATH=/build/python3.8-4wuY7n/python3.8-3.8.10/build-shared
+    ./python ../Tools/scripts/run_tests.py
+  TESTTIMEOUT: 1200
+  TIMEMODULE_LIB: 0
+  TIME_WITH_SYS_TIME: 1
+  TM_IN_SYS_TIME: 0
+  UNICODE_DEPS: \
+  UNIVERSALSDK: ''
+  UPDATE_FILE: python3.8 ../Tools/scripts/update_file.py
+  USE_COMPUTED_GOTOS: 1
+  VERSION: '3.8'
+  VPATH: ..
+  WINDOW_HAS_FLAGS: 1
+  WITH_DECIMAL_CONTEXTVAR: 1
+  WITH_DOC_STRINGS: 1
+  WITH_DTRACE: 1
+  WITH_DYLD: 0
+  WITH_LIBINTL: 0
+  WITH_NEXT_FRAMEWORK: 0
+  WITH_PYMALLOC: 1
+  WITH_VALGRIND: 0
+  X87_DOUBLE_ROUNDING: 0
+  XMLLIBSUBDIRS: xml xml/dom xml/etree xml/parsers xml/sax
+  abiflags: ''
+  abs_builddir: /build/python3.8-4wuY7n/python3.8-3.8.10/build-shared
+  abs_srcdir: /build/python3.8-4wuY7n/python3.8-3.8.10/build-shared/..
+  base: /usr
+  datarootdir: /usr/share
+  exec_prefix: /usr
+  installed_base: /usr
+  installed_platbase: /usr
+  multiarchsubdir: /x86_64-linux-gnu
+  platbase: /usr
+  prefix: /usr
+  projectbase: /usr/bin
+  py_version: 3.8.10
+  py_version_nodot: '38'
+  py_version_short: '3.8'
+  srcdir: /usr/lib/python3.8/config-3.8-x86_64-linux-gnu
+  userbase: /home/kcoakley/.local
+version: 1.3.0
