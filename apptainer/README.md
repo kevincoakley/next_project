@@ -8,6 +8,7 @@ This directory contains the Apptainer definition files to build the containers.
 
 * [tensorflow_2.8.0-gpu](https://object.cloud.sdsc.edu:443/v1/AUTH_da4962d3368042ac8337e2dfdd3e7bf3/singularity/docker_hub/tensorflow_2.8.0-gpu-1.0.0.sif)
 * [tensorflow_2.9.1-gpu](https://object.cloud.sdsc.edu:443/v1/AUTH_da4962d3368042ac8337e2dfdd3e7bf3/singularity/docker_hub/tensorflow_2.9.1-gpu-1.0.0.sif)
+* [tensorflow_2.10.1-gpu](https://object.cloud.sdsc.edu:443/v1/AUTH_da4962d3368042ac8337e2dfdd3e7bf3/singularity/docker_hub/tensorflow_2.10.1-gpu-1.0.0.sif)
 * [tensorflow_2.11.0-gpu](https://object.cloud.sdsc.edu:443/v1/AUTH_da4962d3368042ac8337e2dfdd3e7bf3/singularity/docker_hub/tensorflow_2.11.0-gpu-1.0.0.sif)
 
 ### dockerhub/tensorflow/tensorflow Customize (GPU)
