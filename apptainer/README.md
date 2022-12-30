@@ -25,4 +25,6 @@ Containers from dockerhub/tensorflow/tensorflow customized to include CUDA 11.3 
 * [tensorflow_22.06-tf2-py3](https://object.cloud.sdsc.edu:443/v1/AUTH_da4962d3368042ac8337e2dfdd3e7bf3/singularity/ngc/tensorflow_22.06-tf2-py3.sif)
 * [tensorflow_22.09-tf2-py3](https://object.cloud.sdsc.edu:443/v1/AUTH_da4962d3368042ac8337e2dfdd3e7bf3/singularity/ngc/tensorflow_22.09-tf2-py3.sif)
 * [tensorflow_22.10-tf2-py3](https://object.cloud.sdsc.edu:443/v1/AUTH_da4962d3368042ac8337e2dfdd3e7bf3/singularity/ngc/tensorflow_22.10-tf2-py3.sif)
+* [tensorflow_22.10.1-tf2-py3](https://object.cloud.sdsc.edu:443/v1/AUTH_da4962d3368042ac8337e2dfdd3e7bf3/singularity/ngc/tensorflow_22.10.1-tf2-py3.sif)
 * [tensorflow_22.11-tf2-py3](https://object.cloud.sdsc.edu:443/v1/AUTH_da4962d3368042ac8337e2dfdd3e7bf3/singularity/ngc/tensorflow_22.11-tf2-py3.sif)
+* [tensorflow_22.12-tf2-py3](https://object.cloud.sdsc.edu:443/v1/AUTH_da4962d3368042ac8337e2dfdd3e7bf3/singularity/ngc/tensorflow_22.12-tf2-py3.sif)
