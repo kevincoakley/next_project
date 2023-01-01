@@ -1,0 +1,5 @@
+stash:///osgconnect/public/kcoakley/tensorflow_22.10.1-tf2-py3.sif, tensorflow_22.10.1-tf2-py3
+stash:///osgconnect/public/kcoakley/tensorflow_22.11-tf2-py3.sif, tensorflow_22.11-tf2-py3 
+stash:///osgconnect/public/kcoakley/tensorflow_22.12-tf2-py3.sif, tensorflow_22.12-tf2-py3 
+stash:///osgconnect/public/kcoakley/tensorflow_2.10.1-gpu-1.0.0.sif, tensorflow_2.10.1-gpu
+stash:///osgconnect/public/kcoakley/tensorflow_2.11.0-gpu-1.0.0.sif, tensorflow_2.11.0-gpu
