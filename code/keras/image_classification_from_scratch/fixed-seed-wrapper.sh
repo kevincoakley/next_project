@@ -30,6 +30,14 @@ else
     nvidia-smi
 fi
 
+if [ -e kagglecatsanddogs_5340.tar ]
+then
+    echo "kagglecatsanddogs_5340.tar found"
+    tar xvf kagglecatsanddogs_5340.tar
+else
+    echo "kagglecatsanddogs_5340.tar not found"
+fi
+
 python ./image_classification_from_scratch.py --num-runs 1 --run-name $RUN_NAME --seed-val 2628917891
 python ./image_classification_from_scratch.py --num-runs 1 --run-name $RUN_NAME --seed-val 2628917891
 python ./image_classification_from_scratch.py --num-runs 1 --run-name $RUN_NAME --seed-val 1970651642
