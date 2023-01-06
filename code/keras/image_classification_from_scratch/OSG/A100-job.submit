@@ -17,7 +17,7 @@ request_disk = 10GB
 
 # Executable is the program your job will run It's often useful
 # to create a shell script to "wrap" your actual work.
-Executable = job-wrapper.sh
+Executable = $(executable)
 Arguments = $(description)
 
 # Inputs/outputs - in this case we just need our python code.
@@ -43,4 +43,4 @@ Log = $(Cluster).log
 
 # queue is the "start button" - it launches any jobs that have been
 # specified thus far.
-queue container, description from containers.txt
+queue container, description, executable from containers.txt
