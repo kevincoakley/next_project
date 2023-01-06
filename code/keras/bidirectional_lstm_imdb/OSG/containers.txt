@@ -1,7 +1,19 @@
-stash:///osgconnect/public/kcoakley/tensorflow_22.06-tf2-py3.sif, tensorflow_22.06-tf2-py3
-stash:///osgconnect/public/kcoakley/tensorflow_22.09-tf2-py3.sif, tensorflow_22.09-tf2-py3
-stash:///osgconnect/public/kcoakley/tensorflow_22.10-tf2-py3.sif, tensorflow_22.10-tf2-py3
-stash:///osgconnect/public/kcoakley/tensorflow_22.11-tf2-py3.sif, tensorflow_22.11-tf2-py3 
-stash:///osgconnect/public/kcoakley/tensorflow_2.8.3-gpu-cuda11.3-cudnn8.2.sif, tensorflow_2.8.3-gpu-cuda11.3-cudnn8.2
-stash:///osgconnect/public/kcoakley/tensorflow_2.9.1-gpu-cuda11.3-cudnn8.2.sif, tensorflow_2.9.1-gpu-cuda11.3-cudnn8.2
-stash:///osgconnect/public/kcoakley/tensorflow_2.10.0-gpu-cuda11.3-cudnn8.2.sif, tensorflow_2.10.0-gpu-cuda11.3-cudnn8.2
+stash:///osgconnect/public/kcoakley/tensorflow_22.06-tf2-py3.sif, tensorflow_22.06-tf2-py3, fixed-seed-wrapper.sh
+stash:///osgconnect/public/kcoakley/tensorflow_22.09-tf2-py3.sif, tensorflow_22.09-tf2-py3, fixed-seed-wrapper.sh
+stash:///osgconnect/public/kcoakley/tensorflow_22.10-tf2-py3.sif, tensorflow_22.10-tf2-py3, fixed-seed-wrapper.sh
+stash:///osgconnect/public/kcoakley/tensorflow_22.11-tf2-py3.sif, tensorflow_22.11-tf2-py3, fixed-seed-wrapper.sh
+stash:///osgconnect/public/kcoakley/tensorflow_22.12-tf2-py3.sif, tensorflow_22.12-tf2-py3, fixed-seed-wrapper.sh
+stash:///osgconnect/public/kcoakley/tensorflow_2.8.3-gpu-cuda11.3-cudnn8.2.sif, tensorflow_2.8.3-gpu-cuda11.3-cudnn8.2, fixed-seed-wrapper.sh
+stash:///osgconnect/public/kcoakley/tensorflow_2.9.1-gpu-cuda11.3-cudnn8.2.sif, tensorflow_2.9.1-gpu-cuda11.3-cudnn8.2, fixed-seed-wrapper.sh
+stash:///osgconnect/public/kcoakley/tensorflow_2.10.0-gpu-cuda11.3-cudnn8.2.sif, tensorflow_2.10.0-gpu-cuda11.3-cudnn8.2, fixed-seed-wrapper.sh
+stash:///osgconnect/public/kcoakley/tensorflow_2.11.0-gpu-cuda11.8-cudnn8.6.sif, tensorflow_2.11.0-gpu-cuda11.8-cudnn8.6, fixed-seed-wrapper.sh
+
+stash:///osgconnect/public/kcoakley/tensorflow_22.06-tf2-py3.sif, tensorflow_22.06-tf2-py3, random-wrapper.sh
+stash:///osgconnect/public/kcoakley/tensorflow_22.09-tf2-py3.sif, tensorflow_22.09-tf2-py3, random-wrapper.sh
+stash:///osgconnect/public/kcoakley/tensorflow_22.10-tf2-py3.sif, tensorflow_22.10-tf2-py3, random-wrapper.sh
+stash:///osgconnect/public/kcoakley/tensorflow_22.11-tf2-py3.sif, tensorflow_22.11-tf2-py3, random-wrapper.sh
+stash:///osgconnect/public/kcoakley/tensorflow_22.12-tf2-py3.sif, tensorflow_22.12-tf2-py3, random-wrapper.sh
+stash:///osgconnect/public/kcoakley/tensorflow_2.8.3-gpu-cuda11.3-cudnn8.2.sif, tensorflow_2.8.3-gpu-cuda11.3-cudnn8.2, random-wrapper.sh
+stash:///osgconnect/public/kcoakley/tensorflow_2.9.1-gpu-cuda11.3-cudnn8.2.sif, tensorflow_2.9.1-gpu-cuda11.3-cudnn8.2, random-wrapper.sh
+stash:///osgconnect/public/kcoakley/tensorflow_2.10.0-gpu-cuda11.3-cudnn8.2.sif, tensorflow_2.10.0-gpu-cuda11.3-cudnn8.2, random-wrapper.sh
+stash:///osgconnect/public/kcoakley/tensorflow_2.11.0-gpu-cuda11.8-cudnn8.6.sif, tensorflow_2.11.0-gpu-cuda11.8-cudnn8.6, random-wrapper.sh
