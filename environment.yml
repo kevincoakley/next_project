@@ -1,0 +1,15 @@
+---
+name: jupyter
+channels:
+  - base
+dependencies:
+  - ipywidgets
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - seaborn
+  - pip:
+      - isort
+      - black
+      - jupyterlab_code_formatter
